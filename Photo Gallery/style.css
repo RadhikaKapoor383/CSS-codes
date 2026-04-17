@@ -13,8 +13,16 @@ body {
     justify-content: center;
     padding: 20px;
 }
+h1 {
+    align-items: center;
+    margin: 10px
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px
+}
 .gallery-item {
-
     margin: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
